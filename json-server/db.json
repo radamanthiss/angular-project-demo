@@ -29,6 +29,11 @@
       "firstName": "juan",
       "lastName": "perez",
       "id": 6
+    },
+    {
+      "firstName": "wendy",
+      "lastName": "sanchez",
+      "id": 7
     }
   ]
 }

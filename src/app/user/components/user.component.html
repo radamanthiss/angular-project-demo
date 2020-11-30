@@ -8,5 +8,5 @@
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>
 <ul *ngFor="let user of users | async">
-  <li>{{ user.firstName }}</li>
+  <li>{{ user.firstName }} {{user.lastName}}</li>
 </ul>
