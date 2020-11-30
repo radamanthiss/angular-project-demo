@@ -1,4 +1,5 @@
-import { User } from '@app/user/service/user.service';
+import { User } from '../../user/service/user.service';
+
 
 export interface UserState {
   user: User;

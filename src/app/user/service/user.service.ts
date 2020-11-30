@@ -4,8 +4,8 @@ import { Observable, of } from 'rxjs';
 
 import { catchError, map, tap } from 'rxjs/operators';
 
-import { Endpoints } from '@app/global/endpoints';
-import { environment } from '@env/environment';
+import { Endpoints } from '../../global/endpoints';
+import { environment } from '../../../environments/environment';
 
 const routes = {
   user: (c: UserContext) => `/users/${c.id}`,
